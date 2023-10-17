@@ -10,3 +10,5 @@ variable "ami_id" {
 variable "instance_type" {
     type = string
 }
+variable "access_key" {}
+variable "secret_key" {}
