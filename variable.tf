@@ -1,4 +1,4 @@
-variable "subnet_cidr" {
+variable "subnet_id" {
     type = string
 }
 variable "ami_id" {
