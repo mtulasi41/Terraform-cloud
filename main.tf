@@ -2,7 +2,7 @@ resource "aws_vpc" "my_vpc" {
     cidr_block = var.vpc_cidr
 }
 resource "aws_subnet" "my_subnet" {
-    vpc_id = var.vpc_id
+    vpc_id = var.vpc_cidr
     cidr_block = var.subnet_cidr
 }
 resource "aws_instance" "webserver"{
