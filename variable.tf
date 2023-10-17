@@ -1,3 +1,5 @@
+variable "access_key" {}
+variable "secret_key" {}
 variable "vpc_cidr" {
     type = string
     default = "172.16.0.0/16"
